@@ -1,0 +1,14 @@
+.hide,
+.show {
+    transition: 1s
+}
+
+.hide {
+    opacity: 0;
+    transform: translateY(80px)
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0)
+}
